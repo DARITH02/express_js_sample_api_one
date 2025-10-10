@@ -32,7 +32,7 @@ index.use("/api/", routes);
 // upload images
 
 
-index.use('/public/images/courses', express.static(path.join(process.cwd(), 'public/images/courses')));
+index.use('/images/courses', express.static(path.join(process.cwd(), 'public/images/courses')));
 
 
 // Error handling middleware
